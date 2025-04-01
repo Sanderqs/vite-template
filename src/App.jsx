@@ -1,7 +1,7 @@
 import "./App.css";
+import DrinkButtons from "./components/DrinkButtons";
 
 const App = () => {
-  const description = <p>Op Jouw Moend</p>;
-  return <div className="App">{description}</div>;
+  return <DrinkButtons />;
 };
 export default App;
