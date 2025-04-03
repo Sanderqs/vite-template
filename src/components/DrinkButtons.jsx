@@ -1,10 +1,13 @@
-const DrinkButtons = () => {
+import "./DrinkButtons.css";
+import Button from "./ui/Button";
+
+const DrinkButtons = ({ drinkOne, drinkTwo }) => {
   return (
     <>
       <h2>Would You Like Coffee or Tea</h2>
       <div className="button-group">
-        <button className="Button">Tea</button>
-        <button className="Button">Coffee</button>
+        <Button />
+        <Button />
       </div>
     </>
   );
